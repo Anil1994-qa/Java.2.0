@@ -17,7 +17,7 @@ public static void main(String[] args) {
 	for(int i=1; i<10; i++)
 	{
 		sum=a+b; 
-		System.out.print(sum + " ");
+		System.out.print(sum +" ");
 		a=b;
 		b=sum;
 	}

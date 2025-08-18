@@ -6,7 +6,7 @@ import java.util.Map.Entry;
 public class NonRepeating {
 public static void main(String[] args) {
 		
-	String str="AABBCCDEE";
+	String str="AABBCCDEZE";
 	
 	HashMap <Character, Integer> hm=new HashMap<Character, Integer>();
 	for(int i=0; i<str.length(); i++)
@@ -28,6 +28,7 @@ public static void main(String[] args) {
 		System.out.println("Non Repated Character is :"+entry.getKey());
 		}
 	}	
+	
 	
 	}
 

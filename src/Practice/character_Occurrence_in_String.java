@@ -16,7 +16,10 @@ public static void main(String[] args) {
 	}
 	 for(HashMap.Entry<Character, Integer> entry:map.entrySet())
      {
-  	   System.out.println(entry.getKey()+" : "+entry.getValue());
+		 if(entry.getValue()>1)
+		 {
+  	        System.out.println(entry.getKey()+" : "+entry.getValue());
+		 }
      }
 	}
 

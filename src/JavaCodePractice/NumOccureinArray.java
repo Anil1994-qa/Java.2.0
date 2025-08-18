@@ -22,7 +22,7 @@ public static void main(String[] args) {
 	}
 	for(Entry<Integer, Integer> entry:hm.entrySet())
 	{
-		System.out.println(entry.getKey() +":"+ entry.getValue());
+		System.out.println(entry.getKey() +" - "+ entry.getValue()+" times");
 	}
 	}
 
