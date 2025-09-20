@@ -3,17 +3,15 @@ package Practice3;
 public class NonRepeatChar {
 public static void main(String[] args) {
 		
-	String s="AnilKumarNNavyashreeR";
-	String output="";
+	String s="Aeemmnnh";
 	for(int i=0; i<s.length(); i++)
 	{
 		char ch=s.charAt(i);
-		if(output.indexOf(ch)==-1)
+		if(s.indexOf(ch)==s.lastIndexOf(ch))
 		{
-			output=output+ch;
+		    System.out.println("Non-repeating characters: " + ch);
 		}
 	}
-    System.out.println("Non-repeating characters: " + output);
 
 	
 	
